@@ -3,7 +3,7 @@
 ```javascript
 const a = 122;
 ```
-*task 2 Sum of differences in array
+*task 2: Sum of differences in array
 ```javascript
 function sumOfDifferences(a) {
 let result = 0;
@@ -20,3 +20,16 @@ for(let i = sum.length -1; i >= 0; i--){
   
 }
 ```
+
+#task 3: Beginner - Lost Without a Map
+
+```javascript
+function maps(x){
+let result  = [];
+x.map(function(num){
+  result.push(num*2);
+})
+return result;
+}
+```
+
