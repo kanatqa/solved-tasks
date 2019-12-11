@@ -33,3 +33,18 @@ return result;
 }
 ```
 
+*task 4: Who is going to pay for the wall?
+```javascript
+function whoIsPaying(name){
+  //your code here
+  let fullName = [];
+  if(name.length > 2){
+     fullName.push(name);
+     fullName.push(name.substring(0,2));
+  }else {
+    fullName.push(name);
+  }
+  return fullName
+}
+```
+
