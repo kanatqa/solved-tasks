@@ -77,3 +77,21 @@ function noSpace(x){
   return x.replace(/\s/g, '');
 }
 ```
+*task 8: Calculate BMI
+```javascript
+function bmi(weight, height) {
+  let result = '';
+  let bmi = weight/Math.pow(height,2);
+  if(bmi <= 18.5){
+    return 'Underweight'
+  }else if(bmi > 18.5 && bmi <= 25.0){
+    return 'Normal'
+  }else if(bmi > 25 && bmi <= 30){
+    return 'Overweight'
+  }else if(bmi > 30){
+    return 'Obese'
+  }
+
+  return "";
+}
+```
