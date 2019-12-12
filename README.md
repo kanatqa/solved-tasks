@@ -66,6 +66,8 @@ let count = 0;
 }
 ```
 *task 6: Remove String Spaces
+```javascript
 function noSpace(x){
   return x.replace(/\s/g, '');
 }
+```
