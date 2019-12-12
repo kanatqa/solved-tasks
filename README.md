@@ -71,3 +71,9 @@ function noSpace(x){
   return x.replace(/\s/g, '');
 }
 ```
+*task 7: Breaking chocolate problem
+```javascript
+function noSpace(x){
+  return x.replace(/\s/g, '');
+}
+```
