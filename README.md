@@ -65,4 +65,7 @@ let count = 0;
   }
 }
 ```
-
+*task 6: Remove String Spaces
+function noSpace(x){
+  return x.replace(/\s/g, '');
+}
