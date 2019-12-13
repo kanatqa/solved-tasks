@@ -101,9 +101,9 @@ function unusualFive() {
   return 'wwwww'.length;
 }
 ```
-*task 10: [JS 8kyu] - Playing with cubes I
+*task 10: [Java 8kyu] - Playing with cubes I
 ```javascript
-        public class Cube{
+public class Cube{
             private int side;
             int getSide(){
               return side;
@@ -112,5 +112,34 @@ function unusualFive() {
               side = num;
             }
           }
+public class EncapsulationDemo{
+  public int number;
+  public String stringValue;
+  public Object anObject;
+  
+  public int getNumber(){
+    return number;
+  }
+  public void setNumber(int number){
+    this.number = number;
+  }
+  
+  public String getStringValue(){
+    return stringValue;
+  }        
+  public void setStringValue(String stringValue){
+    this.stringValue = stringValue;
+  }
+  
+  public Object obObject(){
+    return anObject;
+  }
+  public void setObObject(Object anObject){
+    this.anObject = anObject;
+  }
+}
+
 ```
+
+
          
