@@ -95,3 +95,9 @@ function bmi(weight, height) {
   return "";
 }
 ```
+*task 9 [JS 8kyu] 5 without numbers !!
+```javascript
+function unusualFive() {
+  return 'wwwww'.length;
+}
+```
