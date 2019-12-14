@@ -95,13 +95,13 @@ function bmi(weight, height) {
   return "";
 }
 ```
-*task 9: [JS 8kyu] 5 without numbers !!
+*task 9: JS 8kyu 5 without numbers !!
 ```javascript
 function unusualFive() {
   return 'wwwww'.length;
 }
 ```
-*task 10: [Java 8kyu] - Playing with cubes I
+*task 10: Java 8kyu - Playing with cubes I
 ```javascript
 public class Cube{
             private int side;
@@ -141,7 +141,7 @@ public class EncapsulationDemo{
 
 ```
 
-*test11 [java 7kyu] Lombok Encapsulation
+*test11 java 7kyu Lombok Encapsulation
 ```javascript
 
 
