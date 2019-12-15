@@ -204,3 +204,40 @@ function otherAngle(a, b) {
   return 180 - (a + b);
 }
 ```
+*task 14: I love you, a little , a lot, passionately ... not at all
+```javascript
+/*
+===
+
+best solution:
+howMuchILoveYou = n => ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'][(n - 1) % 6]
+
+===
+*/
+function howMuchILoveYou(nbPetals) {
+    // your code
+    let petals = ['I love you',
+        'a little',
+        'a lot',
+        'passionately',
+        'madly',
+        'not at all'];
+  
+  if(nbPetals< 7){
+    for(let i = 0; i <= petals.length; i++){
+        if(nbPetals === i){
+            return petals[i - 1];
+        }
+    }
+  }else if (nbPetals = nbPetals %6){
+        for(let i = 0; i <= petals.length; i++){
+        if(nbPetals === i){
+            return petals[i - 1];
+        }
+    }
+  }else if(nbPetals == 0) return 'not at all';
+  
+  }
+
+
+```
