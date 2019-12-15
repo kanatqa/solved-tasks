@@ -197,12 +197,10 @@ function angle(n) {
   return (n - 2) * 180;
 }
 ```
-*task13: Third Angle of a Triangle
+*task 13: Third Angle of a Triangle
 ```javascript
 function otherAngle(a, b) {
 
   return 180 - (a + b);
 }
 ```
-
-         
