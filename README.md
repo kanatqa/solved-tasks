@@ -191,5 +191,11 @@ helloWorld = function() {
   console.log( str );
 }
 ```
+*task12: Sum of angles
+```javascript
+function angle(n) {
+  return (n - 2) * 180;
+}
+```
 
          
