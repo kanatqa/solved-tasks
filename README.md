@@ -259,3 +259,10 @@ function boolToWord( bool ){
 }
 
 ```
+*task 17: Super Duper Easy
+```javascript
+function problem(x){
+  //your code here
+  return (typeof x === 'number') ? x * 50 + 6 : 'Error';
+}
+```
