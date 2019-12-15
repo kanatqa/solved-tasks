@@ -251,3 +251,11 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
   return radius * radius  * heigth * 2;
 }
 ```
+*task16: Convert boolean values to strings 'Yes' or 'No'.
+```javascript
+function boolToWord( bool ){
+  //...
+  return (bool) ? 'Yes' : 'No';
+}
+
+```
