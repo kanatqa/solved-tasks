@@ -241,3 +241,13 @@ function howMuchILoveYou(nbPetals) {
 
 
 ```
+*task 15: For Twins: 2. Math operations
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  // Your code should be here ;)
+  
+  let heigth = bottleLength - rimLength;
+  
+  return radius * radius  * heigth * 2;
+}
+```
