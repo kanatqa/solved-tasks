@@ -266,3 +266,112 @@ function problem(x){
   return (typeof x === 'number') ? x * 50 + 6 : 'Error';
 }
 ```
+*task 18: Chuck Norris VII - True or False? (Beginner)
+```javascript
+function ifChuckSaysSo(){
+return undefined === null;
+
+}
+```
+*task19: Convert a Number to a String!
+```javascript
+function numberToString(num) {
+  // Return a string of the number here!
+  return num.toString();
+}
+```
+
+*task20: Convert a String to a Number!
+```javascript
+var stringToNumber = function(str){
+  // put your code here
+  if(typeof str === 'string'){
+  return +str;
+  }
+  else{
+  return null;
+  }
+}
+```
+
+*task21: Number toString
+```javascript
+var a = 123;
+a = a.toString();
+```
+*task22: Convert a Boolean to a String
+```javascript
+function booleanToString(b){
+  //your code here
+  if(b === true){
+  return 'true';
+  }else{
+  return 'false';
+  }
+}
+```
+*task23: Century From Year
+```javascript
+function oddCount(n){
+  // your code here
+  return Math.ceil(n / 2 - 1);
+}
+```
+*task24: Count Odd Numbers below n
+```javascript
+function oddCount(n){
+  // your code here
+  n = Math.round(n / 2 + 0.5) -1;
+  return n;
+}
+```
+*task25: Keep Hydrated!
+```javascript
+function litres(time) {
+  if(time < 1.5){
+    return 0;
+  }else{
+    return Math.floor(time * 0.5);
+  }
+}
+```
+*task26: Return the closest number multiple of 10
+```javascript
+const closestMultiple10 = num => {
+  num = Math.round(num / 10);
+  num = num * 10;
+  return num;
+};
+```
+*task27: How many times should I go?
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
+}
+```
+*task28: Formatting decimal places #0
+```javascript
+function twoDecimalPlaces(n) {
+  // Your code here
+  let x =  +n.toFixed(2);
+  return x;
+}
+```
+*task29: Area of a Square
+```javascript
+function squareArea(A){
+let x = (A * (2 / Math.PI)) ** 2;
+  return +x.toFixed(2);
+}
+```
+*task30: Discover The Original Price
+```javascript
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  // ...
+  let sum = 100 - salePercentage;
+  let sum1 = (discountedPrice / sum) * salePercentage;
+  let sum2 = (sum1 + discountedPrice).toFixed(2);
+      return +sum2;
+
+}
+```
