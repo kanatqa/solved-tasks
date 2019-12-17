@@ -375,3 +375,153 @@ function discoverOriginalPrice(discountedPrice, salePercentage){
 
 }
 ```
+*task31 Calculate Two People's Individual Ages
+
+```javascript
+function getAges(sum,difference){
+ let result = [];
+ if(sum < 0|| difference < 0  || sum <= difference && sum != difference ){
+  return null;
+ } else if(sum  == difference){ 
+   result.push(sum);
+   result.push(0);
+ 
+ }else{
+ console.log(sum, difference);
+  result.push((Math.abs((difference % sum)  -  sum)/ 2 + difference));
+  result.push((Math.abs((difference % sum)  -  sum)/ 2 ));
+ }
+ return result;
+};
+
+```
+*task32: Is n divisible by x and y?
+```javascript
+function isDivisible(n, x, y) {
+ if(n % x == 0 && n % y == 0){
+   return true;
+ }
+ else{
+   return false;
+ }
+}
+```
+*task33: How satisfied are you with this kata?
+```javascript
+function isTriangle(a,b,c)
+{
+console.log(a, b, c);
+  if (a > 0 && b > 0 && c > 0 && ((c - b < a ) && (a  < c + b) && (a + b > c) && (b < c + a))){
+    return true;
+  }
+  else {
+   return false;
+  }
+}
+```
+*task34: Rock Paper Scissors!
+```javascript
+const rps = (p1, p2) => {
+console.log(p1, p2);
+
+if((p1 === 'rock' && p2 === 'scissors') ||  (p1 === 'scissors' &&  p2 === 'paper') ||  (p1 === 'paper' &&  p2 == 'rock')){
+  return 'Player 1 won!';
+}else if(p1 == p2){
+  return 'Draw!';
+}else { return 'Player 2 won!'}
+};
+```
+*task35: L1: Set Alarm
+
+```javascript
+function setAlarm(employed, vacation){
+  if(employed === true && vacation === false){
+    return true;
+  }else { return false;}
+}
+```
+*task36: Can we divide it?
+```javascript
+function isDivideBy(number, a, b) {
+  // good luck
+  return ((number % a == 0) && (number % b == 0)) ? true : false;
+}
+```
+*task37: Be Concise I - The Ternary Operator
+```javascript
+let describeAge = (b) =>{a="You're a(n) ";return b<13 ? a+"kid" : b>12 && b<18 ? a+"teenager" : b>17 && b<65 ? a+"adult": a+"elderly";}
+
+```
+*task38: 101 Dalmatians - squash the bugs, not the dogs!
+```javascript
+function howManyDalmatians(number){
+  
+  var dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+  
+  var respond = (number <= 10) ? dogs[0] :(number <= 50) ? dogs[1] : (number == 101) ? dogs[3] : dogs[2];
+  
+return respond
+}
+```
+*task39: Training JS #7: if..else and ternary operator
+```javascript
+function saleHotdogs(n){
+  return (n < 5) ? n * 100 : (n >= 5 && n < 10) ? n * 95 : (n >= 10) ? n * 90 : 0;
+}
+```
+
+*task40: Basic Mathematical Operations
+```javascript
+
+function basicOp(operation, value1, value2)
+{
+  // Code
+  let sum = 0;
+switch(operation){
+  case '+':
+  sum = value1 + value2;
+  break;
+  case '-':
+  sum = value1 - value2;
+  break;
+  case '*':
+  sum = value1 * value2;
+  break;
+  case '/':
+  sum = value1 / value2;
+  break;
+}
+return sum;
+}
+
+```
+*task41: simple calculator
+```javascript
+function calculator(a,b,sign){
+
+  // Code
+  let sum = 0;
+  
+switch(sign){
+  case '+':
+  sum = a + b;
+  break;
+  case '-':
+  sum = a - b;
+  break;
+  case '*':
+  sum = a * b;
+  break;
+  case '/':
+  sum = a / b;
+  break;
+  
+}
+if(Number(sum)){
+    return sum;
+  }else{ return "unknown value";}
+  
+
+}
+
+```
