@@ -374,6 +374,8 @@ function discoverOriginalPrice(discountedPrice, salePercentage){
       return +sum2;
 
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 ```
 *task31 Calculate Two People's Individual Ages
 
@@ -863,4 +865,8 @@ const arrCheck = value => (toString.call(value[1]).slice(8, -1).toLowerCase() ==
 
 -------------------
 https://www.codewars.com/kata/5546180ca783b6d2d5000062/solutions/solutions
+=======
+>>>>>>> parent of a8ca7a3... Added from task 30 till 41
+=======
+>>>>>>> parent of a8ca7a3... Added from task 30 till 41
 ```
