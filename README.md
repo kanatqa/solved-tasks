@@ -5,7 +5,7 @@
 ```
 *task 2: Sum of differences in array
 ```javascript
-function sumOfDifferences(a) {
+//function sumOfDifferences(a) {
 let result = 0;
 let b = [];
 let c = 0;
@@ -16,9 +16,9 @@ for(let i = sum.length -1; i >= 0; i--){
     c = c + result;
   }
 }
-    return c;
+   // return c;
   
-}
+//}
 
 sumOfDifferences();
 ```
@@ -26,18 +26,18 @@ sumOfDifferences();
 #task 3: Beginner - Lost Without a Map
 
 ```javascript
-function maps(x){
+//function maps(x){
 let result  = [];
 x.map(function(num){
   result.push(num*2);
 })
-return result;
-}
+//return result;
+//}
 ```
 
 *task 4: Who is going to pay for the wall?
 ```javascript
-function whoIsPaying(name){
+//function whoIsPaying(name){
   //your code here
   let fullName = [];
   if(name.length > 2){
@@ -46,12 +46,12 @@ function whoIsPaying(name){
   }else {
     fullName.push(name);
   }
-  return fullName
-}
+ // return fullName
+//}
 ```
 *task 5: Well of Ideas - Easy Version
 ```javascript
-function well(x){
+//function well(x){
 let count = 0;
   for(let i = 0; i < x.length; i++){
     if(x[i] === 'good'){
@@ -59,25 +59,25 @@ let count = 0;
     }
   }
   if(count === 0){
-    return 'Fail!';
+  //  return 'Fail!';
   }else if(count == 1 || count == 2){
-    return 'Publish!';
+   // return 'Publish!';
   }else if(count > 2){
-    return 'I smell a series!'
-  }
+  //  return 'I smell a series!'
+  //}
 }
 ```
 *task 6: Remove String Spaces
 ```javascript
-function noSpace(x){
-  return x.replace(/\s/g, '');
-}
+//function noSpace(x){
+  //return x.replace(/\s/g, '');
+//}
 ```
 *task 7: Breaking chocolate problem
 ```javascript
-function noSpace(x){
-  return x.replace(/\s/g, '');
-}
+//function noSpace(x){
+  //return x.replace(/\s/g, '');
+//}
 ```
 *task 8: Calculate BMI
 ```javascript
