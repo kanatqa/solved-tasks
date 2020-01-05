@@ -1,7 +1,7 @@
 # solved-tasks
 *task 1
 ```javascript
-const a = 122;
+//const a = 122;
 ```
 *task 2: Sum of differences in array
 ```javascript
@@ -19,6 +19,8 @@ for(let i = sum.length -1; i >= 0; i--){
     return c;
   
 }
+
+sumOfDifferences();
 ```
 
 #task 3: Beginner - Lost Without a Map
@@ -101,88 +103,7 @@ function unusualFive() {
   return 'wwwww'.length;
 }
 ```
-*task 10: Java 8kyu - Playing with cubes I
-```javascript
-public class Cube{
-            private int side;
-            int getSide(){
-              return side;
-            }
-            void setSide(int num){
-              side = num;
-            }
-          }
-public class EncapsulationDemo{
-  public int number;
-  public String stringValue;
-  public Object anObject;
-  
-  public int getNumber(){
-    return number;
-  }
-  public void setNumber(int number){
-    this.number = number;
-  }
-  
-  public String getStringValue(){
-    return stringValue;
-  }        
-  public void setStringValue(String stringValue){
-    this.stringValue = stringValue;
-  }
-  
-  public Object obObject(){
-    return anObject;
-  }
-  public void setObObject(Object anObject){
-    this.anObject = anObject;
-  }
-}
-
-```
-
-*test11 java 7kyu Lombok Encapsulation
-```javascript
-
-
-public class EncapsulationDemo{
-  private int number;
-  private String stringValue;
-  private Object anObject;
-  
-  
-  EncapsulationDemo(){
-  
-  }
-  EncapsulationDemo(int number, String stringValue, Object anObject){
-    this.number = number;
-    this.stringValue = stringValue;
-    this.anObject = anObject;
-  
-  }
-  
-  public int getNumber(){
-    return number;
-  }
-  public void setNumber(int number){
-    this.number = number;
-  }
-  
-  public String getStringValue(){
-    return stringValue;
-  }        
-  public void setStringValue(String stringValue){
-    this.stringValue = stringValue;
-  }
-  
-  public Object getAnObject(){
-    return anObject;
-  }
-  public void setAnObject(Object anObject){
-    this.anObject = anObject;
-  }
-}
-```
+*```
 *task11: 8 kyu Training JS #1: create your first JS function and print "Helloworld!"
 ```javascript
 
@@ -870,3 +791,16 @@ https://www.codewars.com/kata/5546180ca783b6d2d5000062/solutions/solutions
 =======
 >>>>>>> parent of a8ca7a3... Added from task 30 till 41
 ```
+#task 43 Double Char
+```javascript
+function doubleChar(str) {
+  // Your code here
+  let word = '';
+  for(let i = 0; i < str.length; i++){
+  word += str.charAt(i) + str.charAt(i);
+  }
+  return word;
+}
+```
+
+
