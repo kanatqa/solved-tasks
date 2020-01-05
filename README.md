@@ -455,5 +455,27 @@ if(Number(sum)){
   }
 
 ```
+*task 43 Abbreviate a Two Word Name
+ ```javascript
+function abbrevName(name){
+         let pin2 = name.indexOf(' ');
+         return (name[0] + '.' + name[pin2 + 1]).toUpperCase();
+         }
+         ==============
+         Numbers to Letters
+         
+         function switcher(x){
+         let abc = ' ?!abcdefghijklmnopqrstuvwxyz';
+         abc = [...abc + ''].reverse();
+         let word = [] //codewars
+         
+         for(let i = 0; i <= x.length -1; i++){
+           word.push((abc[x[i ]  - 1]));
+         }
+         return word.join('');
+         }
 
 
+
+```
+         
