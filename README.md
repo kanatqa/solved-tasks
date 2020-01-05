@@ -461,9 +461,14 @@ function abbrevName(name){
          let pin2 = name.indexOf(' ');
          return (name[0] + '.' + name[pin2 + 1]).toUpperCase();
          }
-         ==============
-         Numbers to Letters
          
+
+
+
+
+```
+*task 44 Numbers to Letters
+```javascript
          function switcher(x){
          let abc = ' ?!abcdefghijklmnopqrstuvwxyz';
          abc = [...abc + ''].reverse();
@@ -474,8 +479,6 @@ function abbrevName(name){
          }
          return word.join('');
          }
-
-
-
 ```
+
          
