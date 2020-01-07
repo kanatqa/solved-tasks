@@ -481,5 +481,15 @@ function abbrevName(name){
             console.log(word.join(''));
          }
 ```
+* task 45 Regex validate PIN code
+```javascript
+function validatePIN (pin) {
+          let a = ([...pin + '']).map((el) => parseInt(el))
+          let b = a.every(el => el >= 0)
+          console.log(a);
+          return (b == true && (a.length == 4 || a.length == 6)) ? true : false;
+}
+```
+          
 
          
