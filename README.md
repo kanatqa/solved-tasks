@@ -21,7 +21,7 @@ for(let i = sum.length -1; i >= 0; i--){
 }
 ```
 
-#task 3: Beginner - Lost Without a Map
+*task 3: Beginner - Lost Without a Map
 
 ```javascript
 function maps(x){
@@ -850,23 +850,21 @@ arr.push(i)
 return arr;
 }
 
--------------------
 
+
+}
+
+
+```
+*task 45 
+```javascript
+const arrCheck = value => (toString.call(value[1]).slice(8, -1).toLowerCase() === "array") ? true : false ;
+
+```
+*task 46
+```javascript
 function type(a) {
   let b = toString.call(a).toLowerCase(a).split(' ').pop()
 
 return (b.split(']').slice(0, -1).join('/'));
-}
--------------------
-const arrCheck = value => (toString.call(value[1]).slice(8, -1).toLowerCase() === "array") ? true : false ;
--------------------
-
--------------------
-
--------------------
-https://www.codewars.com/kata/5546180ca783b6d2d5000062/solutions/solutions
-=======
->>>>>>> parent of a8ca7a3... Added from task 30 till 41
-=======
->>>>>>> parent of a8ca7a3... Added from task 30 till 41
 ```
