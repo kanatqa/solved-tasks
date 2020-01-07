@@ -478,6 +478,7 @@ function abbrevName(name){
            word.push((abc[x[i ]  - 1]));
          }
          return word.join('');
+            console.log(word.join(''));
          }
 ```
 
