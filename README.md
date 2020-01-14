@@ -20,9 +20,7 @@ for(let i = sum.length -1; i >= 0; i--){
   
 }
 ```
-
 *task 3: Beginner - Lost Without a Map
-
 ```javascript
 function maps(x){
 let result  = [];
@@ -101,88 +99,7 @@ function unusualFive() {
   return 'wwwww'.length;
 }
 ```
-*task 10: Java 8kyu - Playing with cubes I
-```javascript
-public class Cube{
-            private int side;
-            int getSide(){
-              return side;
-            }
-            void setSide(int num){
-              side = num;
-            }
-          }
-public class EncapsulationDemo{
-  public int number;
-  public String stringValue;
-  public Object anObject;
-  
-  public int getNumber(){
-    return number;
-  }
-  public void setNumber(int number){
-    this.number = number;
-  }
-  
-  public String getStringValue(){
-    return stringValue;
-  }        
-  public void setStringValue(String stringValue){
-    this.stringValue = stringValue;
-  }
-  
-  public Object obObject(){
-    return anObject;
-  }
-  public void setObObject(Object anObject){
-    this.anObject = anObject;
-  }
-}
 
-```
-
-*test11 java 7kyu Lombok Encapsulation
-```javascript
-
-
-public class EncapsulationDemo{
-  private int number;
-  private String stringValue;
-  private Object anObject;
-  
-  
-  EncapsulationDemo(){
-  
-  }
-  EncapsulationDemo(int number, String stringValue, Object anObject){
-    this.number = number;
-    this.stringValue = stringValue;
-    this.anObject = anObject;
-  
-  }
-  
-  public int getNumber(){
-    return number;
-  }
-  public void setNumber(int number){
-    this.number = number;
-  }
-  
-  public String getStringValue(){
-    return stringValue;
-  }        
-  public void setStringValue(String stringValue){
-    this.stringValue = stringValue;
-  }
-  
-  public Object getAnObject(){
-    return anObject;
-  }
-  public void setAnObject(Object anObject){
-    this.anObject = anObject;
-  }
-}
-```
 *task11: 8 kyu Training JS #1: create your first JS function and print "Helloworld!"
 ```javascript
 
@@ -374,8 +291,7 @@ function discoverOriginalPrice(discountedPrice, salePercentage){
       return +sum2;
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ```
 *task31 Calculate Two People's Individual Ages
 
@@ -529,9 +445,6 @@ if(Number(sum)){
 ```
 *task42 
 ```javascript
-Power of two
-
-
 function isPowerOfTwo(n){
   //.. should return true or false ..
 let i = 0;
@@ -546,10 +459,10 @@ while(sum < n){
 return (Math.pow(2, i) == n) ? true : false;
 }
 
---------------------
-Difference Of Squares
+```
 
-
+*task43 Difference Of Squares
+```javascript
 function differenceOfSquares(n){
   // ...
   let sum = 0;
@@ -565,10 +478,9 @@ function differenceOfSquares(n){
   return (Math.pow(b, 2)- sum);
 }
 
--------------------
-No zeros for heros
-
-
+```
+*task44 No zeros for heros
+```javascript
 function noBoringZeros(n) {
   // your code
 let str = '' + n;
@@ -581,10 +493,9 @@ while(i  > -1 && str[i] === '0'){
 }
       return +str;
 }
-
------------
-Factorial
-
+```
+*task45 Factorial
+```javascript
 function factorial(n){
 let sum = 1;
 
@@ -597,274 +508,17 @@ sum = n * sum;
 return sum;
 }
 
-
-----------------
-Sum of Multiples
-
-function sumMul(n,m){
-//your idea here
-let result = 0;
-  if(m <= 0){
-    return "INVALID";
-  }else{
-      console.log(n + ' ' + m);
-    for(let i = n; i < m; i = i + n){
-       result = result + i;
-      
-    }
-    return result;
-  }
-  
-}
---------------------
-Filter the number
-
-var FilterString = function(value) {
-  //Complete this function :)
-  let a = [...value];
-let result = [];
-console.log(a);
-for (let i = 0; i < value.length; i++) { 
-  if (!isNaN(a[i])) {
-    
-  result.push(a[i]); 
- }
-}
-return (+result.join(''));
-}
---------------------
-isReallyNaN
-
-const isReallyNaN = (val) => {
-  // return isNaN(val);  // wasn't working as planned :-(
-  console.log(val);
-  return (Number.isNaN(val)) ? true : false;
-};
---------------------
-Is integer safe to use?
-
-function SafeInteger(n) {
-return (Number.isSafeInteger(n));
-}
---------------------
-Return Negative
-
-
-function makeNegative(num) {
-  // Code?
-  return (num >= 0) ? -num : num;
-}
---------------------
-BASIC: Making Six Toast.
-
-
-function sixToast(num) {
-  // you code here
-  let a = 6 - num;
-  return Math.abs(a);
-}
-
-
--------------------
-Closest elevator
-
-
-function elevator(left, right, call){
-  // code on! :)
-  return Math.abs((left - call)) < Math.abs((right - call)) ? 'left' : 'right';
-}
-
--------------------
-Square Every Digit
-
-
-function squareDigits(num){
-  //may the code be with you
-  num = num + '';
- let a = [...num];
-console.log(num);
-let result = [];
-  for(let i = 0; i < a.length; i++){
-    result.push(Math.pow(a[i], 2));
-  }
-  return +(result.join(''));
-  
-}
--------------------
-You're a square!
-
-
-var isSquare = function(n){
-console.log(n);
-  
-let result = Math.sqrt(n);
-if(n<0){
-  return false; // fix me
-}else if(!Number.isInteger(result)){
-  return false;
-}else return true;
-}
--------------------
-Find the next perfect square!
-
-function findNextSquare(sq) {
-  // Return the next square if sq if a perfect square, -1 otherwise
-  let res = 0;
-if(Number.isInteger(Math.sqrt(sq))){
-  res = Math.sqrt(sq);
-  return Math.pow(res +1, 2)
-  
-}else   return -1;
-
-}
--------------------
-Power of two
-
-function isPowerOfTwo(n){
-  //.. should return true or false ..
-  return Number.isInteger(Math.log2(n));
-}
--------------------
-Beginner Series #4 Cockroach
-
-function cockroachSpeed(s) {
-  //Good Luck!
-  return Math.floor(s * 27.777778);
-}
--------------------
-Price of Mangoes
-
-function mango(quantity, price){
-  return (quantity - Math.floor(quantity / 3))*price;
-}
--------------------
-Holiday VIII - Duty Free
-
-function dutyFree(normPrice, discount, hol){
-return Math.floor((hol / normPrice) / (discount / 100))
-}
-
--------------------
-Tortoise racing
-
-function race(v1, v2, g) {
-    // your code
-if(v1 >= v2) return null;
-console.log(v1 + ' ' + v2 + ' ' + g);
-let c = (g / (v2 - v1))
-let resultTime = [];
-var hour = Math.floor(Math.abs(c));
- var mint = Math.floor((Math.abs(c) * 60) % 60);
- var sec = Math.floor((Math.abs(c) * 3600) % 60);
-resultTime.push(hour, mint, sec);
-return (resultTime);
-}
--------------------
-Formatting decimal places #1
-
-function twoDecimalPlaces(a) {
-  // Your code here
-  return Math.trunc((a - Math.trunc(a)) * 100) / 100 + (Math.trunc(a));
-}
--------------------
-Lario and Muigi Pipe Problem
-
-function pipeFix(a){
-let b = [];
-for(let i = Math.min(...a); i <= Math.max(...a); i++){
-  b.push(i);
-  
-}
-return (b);
-
-}
--------------------
-Expressions Matter
-
-function expressionMatter(a, b, c) {
-  return (Math.max((a + b  + c), (a * (b + c)), (a * b * c), (a + b * c), ((a + b) * c)));// highest achievable result
-  
-}
--------------------
-Convert to Binary
-
-function toBinary(n){
-  return +n.toString(2);
-}
--------------------
-Binary Addition
-
-function addBinary(a,b) {
-return (a+b).toString(2);
-}
--------------------
-Calculate Price Excluding VAT
-
-//return price without vat
-function excludingVatPrice(a){
-  // your code
-  return (a === null) ? -1 : +((a - (a / (1 + 0.15) * 0.15)).toFixed(2));
-}
--------------------
-Parse nice int from char problem
-
-function getAge(inputString){
-// return correct age (int). Happy coding :) 
-return Number.parseInt(inputString);
-}
-
--------------------
-Hex to Decimal
-
-hexToDec = hexString => Number.parseInt(hexString, 16);
-
--------------------
-Bin to Decimal
-
-binToDec = bin => parseInt(bin, 2);
--------------------
-Parse float
-
-parseF = (s) => (!parseFloat(s) && parseFloat(s) !== 0) ? null : parseFloat(s);
--------------------
-Sum Arrays
-
-// Sum Numbers
-function sum (numbers) {
-    "use strict";
-    let sum = 0;
-    for(let i = 0; i < numbers.length; i++){
-      sum += numbers[i];
-    }
-    
-    return sum;
-};
--------------------
-Filling an array (part 1)
-
-function arr( N){
-let arr = [];
-for(let i = 0; i < N; i++){ 
-arr.push(i)
-}
-return arr;
-}
-
-
-
-}
-
-
 ```
-*task 45 
+*task46
 ```javascript
 const arrCheck = value => (toString.call(value[1]).slice(8, -1).toLowerCase() === "array") ? true : false ;
 
 ```
-*task 46
+*task47
 ```javascript
 function type(a) {
-  let b = toString.call(a).toLowerCase(a).split(' ').pop()
+  let b = toString.call(a).toLowerCase(a).split(' ').pop();
 
 return (b.split(']').slice(0, -1).join('/'));
+}
 ```
