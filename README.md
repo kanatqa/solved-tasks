@@ -522,3 +522,21 @@ function type(a) {
 return (b.split(']').slice(0, -1).join('/'));
 }
 ```
+*task48 Sum of Multiples
+```javascript
+function sumMul(n,m){
+//your idea here
+let result = 0;
+  if(m <= 0){
+    return "INVALID";
+  }else{
+      console.log(n + ' ' + m);
+    for(let i = n; i < m; i = i + n){
+       result = result + i;
+      
+    }
+    return result;
+  }
+  
+}
+```
