@@ -540,3 +540,19 @@ let result = 0;
   
 }
 ```
+*task49 Filter the number
+```javascript
+var FilterString = function(value) {
+  //Complete this function :)
+  let a = [...value];
+let result = [];
+console.log(a);
+for (let i = 0; i < value.length; i++) { 
+  if (!isNaN(a[i])) {
+    
+  result.push(a[i]); 
+ }
+}
+return (+result.join(''));
+}
+```
