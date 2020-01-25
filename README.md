@@ -564,3 +564,9 @@ const isReallyNaN = (val) => {
   return (Number.isNaN(val)) ? true : false;
 };
 ```
+*task51 Is integer safe to use?
+```javascript
+function SafeInteger(n) {
+return (Number.isSafeInteger(n));
+}
+```
