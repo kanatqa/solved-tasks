@@ -556,3 +556,11 @@ for (let i = 0; i < value.length; i++) {
 return (+result.join(''));
 }
 ```
+*task50 isReallyNaN
+```javascript
+const isReallyNaN = (val) => {
+  // return isNaN(val);  // wasn't working as planned :-(
+  console.log(val);
+  return (Number.isNaN(val)) ? true : false;
+};
+```
