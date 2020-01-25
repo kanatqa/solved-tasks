@@ -570,3 +570,10 @@ function SafeInteger(n) {
 return (Number.isSafeInteger(n));
 }
 ```
+*task52 Return Negative
+```javascript
+function makeNegative(num) {
+  // Code?
+  return (num >= 0) ? -num : num;
+}
+```
