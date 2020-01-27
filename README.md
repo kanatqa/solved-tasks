@@ -577,3 +577,10 @@ function makeNegative(num) {
   return (num >= 0) ? -num : num;
 }
 ```
+*task53 Return Negative
+```javascript
+function makeNegative(num) {
+  // Code?
+  return (num >= 0) ? -num : num;
+}
+```
