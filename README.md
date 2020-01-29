@@ -584,3 +584,11 @@ function makeNegative(num) {
   return (num >= 0) ? -num : num;
 }
 ```
+*task54 BASIC: Making Six Toast
+```javascript
+function sixToast(num) {
+  // you code here
+  let a = 6 - num;
+  return Math.abs(a);
+}
+```
