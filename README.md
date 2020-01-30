@@ -592,3 +592,11 @@ function sixToast(num) {
   return Math.abs(a);
 }
 ```
+*task55 Closest elevator
+```javascript
+function elevator(left, right, call){
+  // code on! :)
+  return Math.abs((left - call)) < Math.abs((right - call)) ? 'left' : 'right';
+}
+
+```
