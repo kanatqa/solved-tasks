@@ -600,3 +600,17 @@ function elevator(left, right, call){
 }
 
 ```
+*task56 Square Every Digit
+```javascript
+function squareDigits(num){
+  //may the code be with you
+  num = num + '';
+ let a = [...num];
+console.log(num);
+let result = [];
+  for(let i = 0; i < a.length; i++){
+    result.push(Math.pow(a[i], 2));
+  }
+  return +(result.join(''));
+}
+```
