@@ -614,3 +614,17 @@ let result = [];
   return +(result.join(''));
 }
 ```
+*task57 You're a square!
+```javascript
+var isSquare = function(n){
+console.log(n);
+  
+let result = Math.sqrt(n);
+if(n<0){
+  return false; // fix me
+}else if(!Number.isInteger(result)){
+  return false;
+}else return true;
+}
+
+```
