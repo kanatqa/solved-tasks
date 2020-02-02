@@ -628,3 +628,16 @@ if(n<0){
 }
 
 ```
+*task58 Find the next perfect square!
+```javascript
+function findNextSquare(sq) {
+  // Return the next square if sq if a perfect square, -1 otherwise
+  let res = 0;
+if(Number.isInteger(Math.sqrt(sq))){
+  res = Math.sqrt(sq);
+  return Math.pow(res +1, 2)
+  
+}else   return -1;
+
+}
+```
