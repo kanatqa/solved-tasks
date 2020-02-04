@@ -641,3 +641,11 @@ if(Number.isInteger(Math.sqrt(sq))){
 
 }
 ```
+*task59 Power of two
+```javascript
+function isPowerOfTwo(n){
+  //.. should return true or false ..
+  return Number.isInteger(Math.log2(n));
+}
+
+```
