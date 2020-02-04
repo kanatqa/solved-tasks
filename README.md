@@ -649,3 +649,10 @@ function isPowerOfTwo(n){
 }
 
 ```
+*task60 Beginner Series #4 Cockroach
+```javascript
+function cockroachSpeed(s) {
+  //Good Luck!
+  return Math.floor(s * 27.777778);
+}
+```
