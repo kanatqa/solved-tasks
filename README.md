@@ -656,3 +656,10 @@ function cockroachSpeed(s) {
   return Math.floor(s * 27.777778);
 }
 ```
+*task61 Price of Mangoes
+```javascript
+function mango(quantity, price){
+  return (quantity - Math.floor(quantity / 3))*price;
+}
+
+```
