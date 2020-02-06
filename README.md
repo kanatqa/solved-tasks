@@ -663,3 +663,10 @@ function mango(quantity, price){
 }
 
 ```
+*task62 Holiday VIII - Duty Free
+```javascript
+function dutyFree(normPrice, discount, hol){
+return Math.floor((hol / normPrice) / (discount / 100))
+}
+
+```
