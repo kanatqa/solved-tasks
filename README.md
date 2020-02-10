@@ -684,3 +684,10 @@ resultTime.push(hour, mint, sec);
 return (resultTime);
 }
 ```
+*task64 Formatting decimal places #1
+```javascript
+function twoDecimalPlaces(a) {
+  // Your code here
+  return Math.trunc((a - Math.trunc(a)) * 100) / 100 + (Math.trunc(a));
+}
+```
