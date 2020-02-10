@@ -668,5 +668,19 @@ function mango(quantity, price){
 function dutyFree(normPrice, discount, hol){
 return Math.floor((hol / normPrice) / (discount / 100))
 }
-
+```
+*task63 Tortoise racing
+```javascript
+function race(v1, v2, g) {
+    // your code
+if(v1 >= v2) return null;
+console.log(v1 + ' ' + v2 + ' ' + g);
+let c = (g / (v2 - v1))
+let resultTime = [];
+var hour = Math.floor(Math.abs(c));
+ var mint = Math.floor((Math.abs(c) * 60) % 60);
+ var sec = Math.floor((Math.abs(c) * 3600) % 60);
+resultTime.push(hour, mint, sec);
+return (resultTime);
+}
 ```
