@@ -691,3 +691,16 @@ function twoDecimalPlaces(a) {
   return Math.trunc((a - Math.trunc(a)) * 100) / 100 + (Math.trunc(a));
 }
 ```
+*task65 Lario and Muigi Pipe Problem
+```javascript
+function pipeFix(a){
+let b = [];
+for(let i = Math.min(...a); i <= Math.max(...a); i++){
+  b.push(i);
+  
+}
+return (b);
+
+}
+
+```
