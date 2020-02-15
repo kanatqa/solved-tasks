@@ -711,3 +711,9 @@ function expressionMatter(a, b, c) {
   
 }
 ```
+*task67 Convert to Binary
+```javascript
+function toBinary(n){
+  return +n.toString(2);
+}
+```
