@@ -717,3 +717,9 @@ function toBinary(n){
   return +n.toString(2);
 }
 ```
+*task68 Binary Addition
+```javascript
+function addBinary(a,b) {
+return (a+b).toString(2);
+}
+```
