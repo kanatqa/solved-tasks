@@ -723,3 +723,11 @@ function addBinary(a,b) {
 return (a+b).toString(2);
 }
 ```
+*task69 Calculate Price Excluding VAT
+```javascript
+//return price without vat
+function excludingVatPrice(a){
+  // your code
+  return (a === null) ? -1 : +((a - (a / (1 + 0.15) * 0.15)).toFixed(2));
+}
+```
