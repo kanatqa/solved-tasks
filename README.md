@@ -731,3 +731,10 @@ function excludingVatPrice(a){
   return (a === null) ? -1 : +((a - (a / (1 + 0.15) * 0.15)).toFixed(2));
 }
 ```
+*task70 Parse nice int from char problem
+```javascript
+function getAge(inputString){
+// return correct age (int). Happy coding :) 
+return Number.parseInt(inputString);
+}
+```
