@@ -738,3 +738,31 @@ function getAge(inputString){
 return Number.parseInt(inputString);
 }
 ```
+*task71 Total amount of points
+```javascript
+function points(a) {
+  // your code here
+let b = [];
+let x = 0;
+a = ''+ [...a]
+//console.log(a);
+for(let i = 0; i < a.length; i++){
+  if(a[i] !== ':' && a[i] !== ','){
+  b.push(a[i])
+  }
+}
+//console.log(b);
+
+
+for(let i = 0; i < b.length; i = i + 2){
+if(b[i] > b[i + 1]){
+    x += 3;
+  }else if(b[i] == b[i + 1]){
+    x += 1;
+  }else {
+    x += 0;
+  }
+}
+return (x);
+}
+```
