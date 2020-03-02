@@ -766,3 +766,7 @@ if(b[i] > b[i + 1]){
 return (x);
 }
 ```
+*task72 Hex to Decimal
+```javascript
+hexToDec = hexString => Number.parseInt(hexString, 16);
+```
