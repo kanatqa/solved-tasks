@@ -770,3 +770,7 @@ return (x);
 ```javascript
 hexToDec = hexString => Number.parseInt(hexString, 16);
 ```
+*task73 Parse float
+```javascript
+parseF = (s) => (!parseFloat(s) && parseFloat(s) !== 0) ? null : parseFloat(s);
+```
