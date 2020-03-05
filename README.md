@@ -774,3 +774,7 @@ hexToDec = hexString => Number.parseInt(hexString, 16);
 ```javascript
 parseF = (s) => (!parseFloat(s) && parseFloat(s) !== 0) ? null : parseFloat(s);
 ```
+*task74 Bin to Decimal
+```javascript
+binToDec = bin => parseInt(bin, 2);
+``` 
