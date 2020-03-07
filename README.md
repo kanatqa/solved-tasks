@@ -778,3 +778,16 @@ parseF = (s) => (!parseFloat(s) && parseFloat(s) !== 0) ? null : parseFloat(s);
 ```javascript
 binToDec = bin => parseInt(bin, 2);
 ``` 
+*task75 Sum Arrays
+```javascript
+// Sum Numbers
+function sum (numbers) {
+    "use strict";
+    let sum = 0;
+    for(let i = 0; i < numbers.length; i++){
+      sum += numbers[i];
+    }
+    
+    return sum;
+};
+```
